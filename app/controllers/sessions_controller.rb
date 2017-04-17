@@ -1,5 +1,5 @@
 get '/sessions/new' do
-  erb '/sessions/new'
+  erb :'/sessions/new'
 end
 
 post '/sessions' do
@@ -16,4 +16,4 @@ end
 get '/logout' do
   logout
   redirect '/'
-end 
+end
